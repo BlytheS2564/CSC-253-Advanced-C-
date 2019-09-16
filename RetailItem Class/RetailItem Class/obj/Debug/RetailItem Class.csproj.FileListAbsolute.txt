@@ -1,0 +1,30 @@
+C:\Users\Mike\source\repos\RetailItem Class\RetailItem Class\bin\Debug\RetailItem Class.exe.config
+C:\Users\Mike\source\repos\RetailItem Class\RetailItem Class\bin\Debug\RetailItem Class.exe
+C:\Users\Mike\source\repos\RetailItem Class\RetailItem Class\bin\Debug\RetailItem Class.pdb
+C:\Users\Mike\source\repos\RetailItem Class\RetailItem Class\bin\Debug\Retail Item Library.dll
+C:\Users\Mike\source\repos\RetailItem Class\RetailItem Class\bin\Debug\Retail Item Library.pdb
+C:\Users\Mike\source\repos\RetailItem Class\RetailItem Class\obj\Debug\RetailItem Class.csprojAssemblyReference.cache
+C:\Users\Mike\source\repos\RetailItem Class\RetailItem Class\obj\Debug\RetailItem Class.csproj.CoreCompileInputs.cache
+C:\Users\Mike\source\repos\RetailItem Class\RetailItem Class\obj\Debug\RetailItem Class.csproj.CopyComplete
+C:\Users\Mike\source\repos\RetailItem Class\RetailItem Class\obj\Debug\RetailItem Class.exe
+C:\Users\Mike\source\repos\RetailItem Class\RetailItem Class\obj\Debug\RetailItem Class.pdb
+F:\mike\M1HW4_BlytheM\RetailItem Class\RetailItem Class\bin\Debug\RetailItem Class.exe.config
+F:\mike\M1HW4_BlytheM\RetailItem Class\RetailItem Class\bin\Debug\RetailItem Class.exe
+F:\mike\M1HW4_BlytheM\RetailItem Class\RetailItem Class\bin\Debug\RetailItem Class.pdb
+F:\mike\M1HW4_BlytheM\RetailItem Class\RetailItem Class\bin\Debug\Retail Item Library.dll
+F:\mike\M1HW4_BlytheM\RetailItem Class\RetailItem Class\bin\Debug\Retail Item Library.pdb
+F:\mike\M1HW4_BlytheM\RetailItem Class\RetailItem Class\obj\Debug\RetailItem Class.csprojAssemblyReference.cache
+F:\mike\M1HW4_BlytheM\RetailItem Class\RetailItem Class\obj\Debug\RetailItem Class.csproj.CoreCompileInputs.cache
+F:\mike\M1HW4_BlytheM\RetailItem Class\RetailItem Class\obj\Debug\RetailItem Class.csproj.CopyComplete
+F:\mike\M1HW4_BlytheM\RetailItem Class\RetailItem Class\obj\Debug\RetailItem Class.exe
+F:\mike\M1HW4_BlytheM\RetailItem Class\RetailItem Class\obj\Debug\RetailItem Class.pdb
+F:\Advanced C#\RetailItem Class\RetailItem Class\bin\Debug\RetailItem Class.exe.config
+F:\Advanced C#\RetailItem Class\RetailItem Class\bin\Debug\RetailItem Class.exe
+F:\Advanced C#\RetailItem Class\RetailItem Class\bin\Debug\RetailItem Class.pdb
+F:\Advanced C#\RetailItem Class\RetailItem Class\bin\Debug\Retail Item Library.dll
+F:\Advanced C#\RetailItem Class\RetailItem Class\bin\Debug\Retail Item Library.pdb
+F:\Advanced C#\RetailItem Class\RetailItem Class\obj\Debug\RetailItem Class.csprojAssemblyReference.cache
+F:\Advanced C#\RetailItem Class\RetailItem Class\obj\Debug\RetailItem Class.csproj.CoreCompileInputs.cache
+F:\Advanced C#\RetailItem Class\RetailItem Class\obj\Debug\RetailItem Class.csproj.CopyComplete
+F:\Advanced C#\RetailItem Class\RetailItem Class\obj\Debug\RetailItem Class.exe
+F:\Advanced C#\RetailItem Class\RetailItem Class\obj\Debug\RetailItem Class.pdb

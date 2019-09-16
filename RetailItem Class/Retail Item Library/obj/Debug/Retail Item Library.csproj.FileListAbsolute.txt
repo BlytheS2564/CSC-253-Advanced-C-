@@ -1,0 +1,12 @@
+C:\Users\Mike\source\repos\RetailItem Class\Retail Item Library\bin\Debug\Retail Item Library.dll
+C:\Users\Mike\source\repos\RetailItem Class\Retail Item Library\bin\Debug\Retail Item Library.pdb
+C:\Users\Mike\source\repos\RetailItem Class\Retail Item Library\obj\Debug\Retail Item Library.csprojAssemblyReference.cache
+C:\Users\Mike\source\repos\RetailItem Class\Retail Item Library\obj\Debug\Retail Item Library.csproj.CoreCompileInputs.cache
+C:\Users\Mike\source\repos\RetailItem Class\Retail Item Library\obj\Debug\Retail Item Library.dll
+C:\Users\Mike\source\repos\RetailItem Class\Retail Item Library\obj\Debug\Retail Item Library.pdb
+F:\mike\M1HW4_BlytheM\RetailItem Class\Retail Item Library\bin\Debug\Retail Item Library.dll
+F:\mike\M1HW4_BlytheM\RetailItem Class\Retail Item Library\bin\Debug\Retail Item Library.pdb
+F:\mike\M1HW4_BlytheM\RetailItem Class\Retail Item Library\obj\Debug\Retail Item Library.csprojAssemblyReference.cache
+F:\mike\M1HW4_BlytheM\RetailItem Class\Retail Item Library\obj\Debug\Retail Item Library.csproj.CoreCompileInputs.cache
+F:\mike\M1HW4_BlytheM\RetailItem Class\Retail Item Library\obj\Debug\Retail Item Library.dll
+F:\mike\M1HW4_BlytheM\RetailItem Class\Retail Item Library\obj\Debug\Retail Item Library.pdb

@@ -1,0 +1,14 @@
+E:\Advanced C#\WordCounter\WordCounter\bin\Debug\WordCounter.exe.config
+E:\Advanced C#\WordCounter\WordCounter\bin\Debug\WordCounter.exe
+E:\Advanced C#\WordCounter\WordCounter\bin\Debug\WordCounter.pdb
+E:\Advanced C#\WordCounter\WordCounter\obj\Debug\WordCounter.csprojAssemblyReference.cache
+E:\Advanced C#\WordCounter\WordCounter\obj\Debug\WordCounter.csproj.CoreCompileInputs.cache
+E:\Advanced C#\WordCounter\WordCounter\obj\Debug\WordCounter.exe
+E:\Advanced C#\WordCounter\WordCounter\obj\Debug\WordCounter.pdb
+F:\Advanced C#\WordCounter\WordCounter\bin\Debug\WordCounter.exe.config
+F:\Advanced C#\WordCounter\WordCounter\bin\Debug\WordCounter.exe
+F:\Advanced C#\WordCounter\WordCounter\bin\Debug\WordCounter.pdb
+F:\Advanced C#\WordCounter\WordCounter\obj\Debug\WordCounter.csprojAssemblyReference.cache
+F:\Advanced C#\WordCounter\WordCounter\obj\Debug\WordCounter.csproj.CoreCompileInputs.cache
+F:\Advanced C#\WordCounter\WordCounter\obj\Debug\WordCounter.exe
+F:\Advanced C#\WordCounter\WordCounter\obj\Debug\WordCounter.pdb

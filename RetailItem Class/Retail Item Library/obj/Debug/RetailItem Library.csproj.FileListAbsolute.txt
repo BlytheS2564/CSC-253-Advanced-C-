@@ -1,0 +1,6 @@
+F:\mike\M1HW4_BlytheM\RetailItem Class\Retail Item Library\bin\Debug\Retail Item Library.dll
+F:\mike\M1HW4_BlytheM\RetailItem Class\Retail Item Library\bin\Debug\Retail Item Library.pdb
+F:\mike\M1HW4_BlytheM\RetailItem Class\Retail Item Library\obj\Debug\RetailItem Library.csprojAssemblyReference.cache
+F:\mike\M1HW4_BlytheM\RetailItem Class\Retail Item Library\obj\Debug\RetailItem Library.csproj.CoreCompileInputs.cache
+F:\mike\M1HW4_BlytheM\RetailItem Class\Retail Item Library\obj\Debug\Retail Item Library.dll
+F:\mike\M1HW4_BlytheM\RetailItem Class\Retail Item Library\obj\Debug\Retail Item Library.pdb

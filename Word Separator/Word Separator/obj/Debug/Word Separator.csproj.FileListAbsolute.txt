@@ -1,0 +1,7 @@
+F:\Advanced C#\Word Separator\Word Separator\obj\Debug\Word Separator.csprojAssemblyReference.cache
+F:\Advanced C#\Word Separator\Word Separator\obj\Debug\Word Separator.csproj.CoreCompileInputs.cache
+F:\Advanced C#\Word Separator\Word Separator\bin\Debug\Word Separator.exe.config
+F:\Advanced C#\Word Separator\Word Separator\bin\Debug\Word Separator.exe
+F:\Advanced C#\Word Separator\Word Separator\bin\Debug\Word Separator.pdb
+F:\Advanced C#\Word Separator\Word Separator\obj\Debug\Word Separator.exe
+F:\Advanced C#\Word Separator\Word Separator\obj\Debug\Word Separator.pdb

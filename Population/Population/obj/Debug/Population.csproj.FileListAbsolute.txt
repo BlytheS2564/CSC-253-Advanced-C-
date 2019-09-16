@@ -1,0 +1,7 @@
+C:\Users\admin\Desktop\Advanced C#\Population\Population\obj\Debug\Population.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\Advanced C#\Population\Population\obj\Debug\Population.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Advanced C#\Population\Population\bin\Debug\Population.exe.config
+C:\Users\admin\Desktop\Advanced C#\Population\Population\bin\Debug\Population.exe
+C:\Users\admin\Desktop\Advanced C#\Population\Population\bin\Debug\Population.pdb
+C:\Users\admin\Desktop\Advanced C#\Population\Population\obj\Debug\Population.exe
+C:\Users\admin\Desktop\Advanced C#\Population\Population\obj\Debug\Population.pdb
