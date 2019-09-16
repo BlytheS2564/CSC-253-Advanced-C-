@@ -1,0 +1,21 @@
+C:\Users\admin\source\repos\Hospital Charges\Hospital Charges\obj\Debug\Hospital Charges.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\Hospital Charges\Hospital Charges\obj\Debug\Hospital Charges.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Hospital Charges\Hospital Charges\bin\Debug\Hospital Charges.exe.config
+C:\Users\admin\source\repos\Hospital Charges\Hospital Charges\bin\Debug\Hospital Charges.exe
+C:\Users\admin\source\repos\Hospital Charges\Hospital Charges\bin\Debug\Hospital Charges.pdb
+C:\Users\admin\source\repos\Hospital Charges\Hospital Charges\obj\Debug\Hospital Charges.exe
+C:\Users\admin\source\repos\Hospital Charges\Hospital Charges\obj\Debug\Hospital Charges.pdb
+E:\Advanced C#\Hospital Charges\Hospital Charges\bin\Debug\Hospital Charges.exe.config
+E:\Advanced C#\Hospital Charges\Hospital Charges\bin\Debug\Hospital Charges.exe
+E:\Advanced C#\Hospital Charges\Hospital Charges\bin\Debug\Hospital Charges.pdb
+E:\Advanced C#\Hospital Charges\Hospital Charges\obj\Debug\Hospital Charges.csprojAssemblyReference.cache
+E:\Advanced C#\Hospital Charges\Hospital Charges\obj\Debug\Hospital Charges.csproj.CoreCompileInputs.cache
+E:\Advanced C#\Hospital Charges\Hospital Charges\obj\Debug\Hospital Charges.exe
+E:\Advanced C#\Hospital Charges\Hospital Charges\obj\Debug\Hospital Charges.pdb
+F:\Advanced C#\Hospital Charges\Hospital Charges\bin\Debug\Hospital Charges.exe.config
+F:\Advanced C#\Hospital Charges\Hospital Charges\bin\Debug\Hospital Charges.exe
+F:\Advanced C#\Hospital Charges\Hospital Charges\bin\Debug\Hospital Charges.pdb
+F:\Advanced C#\Hospital Charges\Hospital Charges\obj\Debug\Hospital Charges.csprojAssemblyReference.cache
+F:\Advanced C#\Hospital Charges\Hospital Charges\obj\Debug\Hospital Charges.csproj.CoreCompileInputs.cache
+F:\Advanced C#\Hospital Charges\Hospital Charges\obj\Debug\Hospital Charges.exe
+F:\Advanced C#\Hospital Charges\Hospital Charges\obj\Debug\Hospital Charges.pdb

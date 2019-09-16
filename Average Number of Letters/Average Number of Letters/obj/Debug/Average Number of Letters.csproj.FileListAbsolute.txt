@@ -1,0 +1,7 @@
+F:\Advanced C#\Average Number of Letters\Average Number of Letters\bin\Debug\Average Number of Letters.exe.config
+F:\Advanced C#\Average Number of Letters\Average Number of Letters\bin\Debug\Average Number of Letters.exe
+F:\Advanced C#\Average Number of Letters\Average Number of Letters\bin\Debug\Average Number of Letters.pdb
+F:\Advanced C#\Average Number of Letters\Average Number of Letters\obj\Debug\Average Number of Letters.csprojAssemblyReference.cache
+F:\Advanced C#\Average Number of Letters\Average Number of Letters\obj\Debug\Average Number of Letters.csproj.CoreCompileInputs.cache
+F:\Advanced C#\Average Number of Letters\Average Number of Letters\obj\Debug\Average Number of Letters.exe
+F:\Advanced C#\Average Number of Letters\Average Number of Letters\obj\Debug\Average Number of Letters.pdb

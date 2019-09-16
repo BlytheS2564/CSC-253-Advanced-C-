@@ -1,0 +1,7 @@
+F:\Advanced C#\Most Frequent Character\Most Frequent Character\obj\Debug\Most Frequent Character.csprojAssemblyReference.cache
+F:\Advanced C#\Most Frequent Character\Most Frequent Character\obj\Debug\Most Frequent Character.csproj.CoreCompileInputs.cache
+F:\Advanced C#\Most Frequent Character\Most Frequent Character\bin\Debug\Most Frequent Character.exe.config
+F:\Advanced C#\Most Frequent Character\Most Frequent Character\bin\Debug\Most Frequent Character.exe
+F:\Advanced C#\Most Frequent Character\Most Frequent Character\bin\Debug\Most Frequent Character.pdb
+F:\Advanced C#\Most Frequent Character\Most Frequent Character\obj\Debug\Most Frequent Character.exe
+F:\Advanced C#\Most Frequent Character\Most Frequent Character\obj\Debug\Most Frequent Character.pdb

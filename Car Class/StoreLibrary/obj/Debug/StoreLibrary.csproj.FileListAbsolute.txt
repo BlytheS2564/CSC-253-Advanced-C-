@@ -1,0 +1,6 @@
+E:\CSC - 153 C# Programming\Module 6\Pet Class 2\StoreLibrary\bin\Debug\StoreLibrary.dll
+E:\CSC - 153 C# Programming\Module 6\Pet Class 2\StoreLibrary\bin\Debug\StoreLibrary.pdb
+E:\CSC - 153 C# Programming\Module 6\Pet Class 2\StoreLibrary\obj\Debug\StoreLibrary.csprojAssemblyReference.cache
+E:\CSC - 153 C# Programming\Module 6\Pet Class 2\StoreLibrary\obj\Debug\StoreLibrary.csproj.CoreCompileInputs.cache
+E:\CSC - 153 C# Programming\Module 6\Pet Class 2\StoreLibrary\obj\Debug\StoreLibrary.dll
+E:\CSC - 153 C# Programming\Module 6\Pet Class 2\StoreLibrary\obj\Debug\StoreLibrary.pdb

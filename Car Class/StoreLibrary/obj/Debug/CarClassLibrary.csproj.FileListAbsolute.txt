@@ -1,0 +1,6 @@
+C:\Users\admin\Desktop\New folder (2)\Pet Class 2\StoreLibrary\bin\Debug\StoreLibrary.dll
+C:\Users\admin\Desktop\New folder (2)\Pet Class 2\StoreLibrary\bin\Debug\StoreLibrary.pdb
+C:\Users\admin\Desktop\New folder (2)\Pet Class 2\StoreLibrary\obj\Debug\CarClassLibrary.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\New folder (2)\Pet Class 2\StoreLibrary\obj\Debug\CarClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\New folder (2)\Pet Class 2\StoreLibrary\obj\Debug\StoreLibrary.dll
+C:\Users\admin\Desktop\New folder (2)\Pet Class 2\StoreLibrary\obj\Debug\StoreLibrary.pdb
