@@ -1,0 +1,14 @@
+E:\Advanced C#\Random Number File Reader\Random Number File Reader\obj\Debug\Random Number File Reader.csprojAssemblyReference.cache
+E:\Advanced C#\Random Number File Reader\Random Number File Reader\obj\Debug\Random Number File Reader.csproj.CoreCompileInputs.cache
+E:\Advanced C#\Random Number File Reader\Random Number File Reader\bin\Debug\Random Number File Reader.exe.config
+E:\Advanced C#\Random Number File Reader\Random Number File Reader\bin\Debug\Random Number File Reader.exe
+E:\Advanced C#\Random Number File Reader\Random Number File Reader\bin\Debug\Random Number File Reader.pdb
+E:\Advanced C#\Random Number File Reader\Random Number File Reader\obj\Debug\Random Number File Reader.exe
+E:\Advanced C#\Random Number File Reader\Random Number File Reader\obj\Debug\Random Number File Reader.pdb
+F:\Advanced C#\Random Number File Reader\Random Number File Reader\bin\Debug\Random Number File Reader.exe.config
+F:\Advanced C#\Random Number File Reader\Random Number File Reader\bin\Debug\Random Number File Reader.exe
+F:\Advanced C#\Random Number File Reader\Random Number File Reader\bin\Debug\Random Number File Reader.pdb
+F:\Advanced C#\Random Number File Reader\Random Number File Reader\obj\Debug\Random Number File Reader.csprojAssemblyReference.cache
+F:\Advanced C#\Random Number File Reader\Random Number File Reader\obj\Debug\Random Number File Reader.csproj.CoreCompileInputs.cache
+F:\Advanced C#\Random Number File Reader\Random Number File Reader\obj\Debug\Random Number File Reader.exe
+F:\Advanced C#\Random Number File Reader\Random Number File Reader\obj\Debug\Random Number File Reader.pdb

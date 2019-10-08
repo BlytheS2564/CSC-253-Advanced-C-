@@ -1,0 +1,12 @@
+E:\Advanced C#\Write Class Information to File\PersonClassLibrary\bin\Debug\PersonClassLibrary.dll
+E:\Advanced C#\Write Class Information to File\PersonClassLibrary\bin\Debug\PersonClassLibrary.pdb
+E:\Advanced C#\Write Class Information to File\PersonClassLibrary\obj\Debug\PersonClassLibrary.csprojAssemblyReference.cache
+E:\Advanced C#\Write Class Information to File\PersonClassLibrary\obj\Debug\PersonClassLibrary.csproj.CoreCompileInputs.cache
+E:\Advanced C#\Write Class Information to File\PersonClassLibrary\obj\Debug\PersonClassLibrary.dll
+E:\Advanced C#\Write Class Information to File\PersonClassLibrary\obj\Debug\PersonClassLibrary.pdb
+F:\Advanced C#\Write Class Information to File\PersonClassLibrary\obj\Debug\PersonClassLibrary.csprojAssemblyReference.cache
+F:\Advanced C#\Write Class Information to File\PersonClassLibrary\obj\Debug\PersonClassLibrary.csproj.CoreCompileInputs.cache
+F:\Advanced C#\Write Class Information to File\PersonClassLibrary\obj\Debug\PersonClassLibrary.dll
+F:\Advanced C#\Write Class Information to File\PersonClassLibrary\obj\Debug\PersonClassLibrary.pdb
+F:\Advanced C#\Write Class Information to File\PersonClassLibrary\bin\Debug\PersonClassLibrary.dll
+F:\Advanced C#\Write Class Information to File\PersonClassLibrary\bin\Debug\PersonClassLibrary.pdb

@@ -1,0 +1,9 @@
+F:\Advanced C#\Read Class Information From File\PersonClassLibrary\bin\Debug\netstandard2.0\PersonClassLibrary.deps.json
+F:\Advanced C#\Read Class Information From File\PersonClassLibrary\bin\Debug\netstandard2.0\PersonClassLibrary.dll
+F:\Advanced C#\Read Class Information From File\PersonClassLibrary\bin\Debug\netstandard2.0\PersonClassLibrary.pdb
+F:\Advanced C#\Read Class Information From File\PersonClassLibrary\obj\Debug\netstandard2.0\PersonClassLibrary.csprojAssemblyReference.cache
+F:\Advanced C#\Read Class Information From File\PersonClassLibrary\obj\Debug\netstandard2.0\PersonClassLibrary.csproj.CoreCompileInputs.cache
+F:\Advanced C#\Read Class Information From File\PersonClassLibrary\obj\Debug\netstandard2.0\PersonClassLibrary.AssemblyInfoInputs.cache
+F:\Advanced C#\Read Class Information From File\PersonClassLibrary\obj\Debug\netstandard2.0\PersonClassLibrary.AssemblyInfo.cs
+F:\Advanced C#\Read Class Information From File\PersonClassLibrary\obj\Debug\netstandard2.0\PersonClassLibrary.dll
+F:\Advanced C#\Read Class Information From File\PersonClassLibrary\obj\Debug\netstandard2.0\PersonClassLibrary.pdb

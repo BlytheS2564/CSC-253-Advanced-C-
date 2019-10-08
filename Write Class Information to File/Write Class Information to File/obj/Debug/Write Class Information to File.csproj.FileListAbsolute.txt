@@ -1,0 +1,20 @@
+E:\Advanced C#\Write Class Information to File\Write Class Information to File\bin\Debug\Write Class Information to File.exe.config
+E:\Advanced C#\Write Class Information to File\Write Class Information to File\bin\Debug\Write Class Information to File.exe
+E:\Advanced C#\Write Class Information to File\Write Class Information to File\bin\Debug\Write Class Information to File.pdb
+E:\Advanced C#\Write Class Information to File\Write Class Information to File\bin\Debug\PersonClassLibrary.dll
+E:\Advanced C#\Write Class Information to File\Write Class Information to File\bin\Debug\PersonClassLibrary.pdb
+E:\Advanced C#\Write Class Information to File\Write Class Information to File\obj\Debug\Write Class Information to File.csprojAssemblyReference.cache
+E:\Advanced C#\Write Class Information to File\Write Class Information to File\obj\Debug\Write Class Information to File.csproj.CoreCompileInputs.cache
+E:\Advanced C#\Write Class Information to File\Write Class Information to File\obj\Debug\Write Class Information to File.csproj.CopyComplete
+E:\Advanced C#\Write Class Information to File\Write Class Information to File\obj\Debug\Write Class Information to File.exe
+E:\Advanced C#\Write Class Information to File\Write Class Information to File\obj\Debug\Write Class Information to File.pdb
+F:\Advanced C#\Write Class Information to File\Write Class Information to File\bin\Debug\Write Class Information to File.exe.config
+F:\Advanced C#\Write Class Information to File\Write Class Information to File\bin\Debug\Write Class Information to File.exe
+F:\Advanced C#\Write Class Information to File\Write Class Information to File\bin\Debug\Write Class Information to File.pdb
+F:\Advanced C#\Write Class Information to File\Write Class Information to File\bin\Debug\PersonClassLibrary.dll
+F:\Advanced C#\Write Class Information to File\Write Class Information to File\bin\Debug\PersonClassLibrary.pdb
+F:\Advanced C#\Write Class Information to File\Write Class Information to File\obj\Debug\Write Class Information to File.csprojAssemblyReference.cache
+F:\Advanced C#\Write Class Information to File\Write Class Information to File\obj\Debug\Write Class Information to File.csproj.CoreCompileInputs.cache
+F:\Advanced C#\Write Class Information to File\Write Class Information to File\obj\Debug\Write Class Information to File.csproj.CopyComplete
+F:\Advanced C#\Write Class Information to File\Write Class Information to File\obj\Debug\Write Class Information to File.exe
+F:\Advanced C#\Write Class Information to File\Write Class Information to File\obj\Debug\Write Class Information to File.pdb

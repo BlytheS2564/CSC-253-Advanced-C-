@@ -1,0 +1,10 @@
+F:\Advanced C#\Read Class Information From File\Read Class Information From File\bin\Debug\Read Class Information From File.exe.config
+F:\Advanced C#\Read Class Information From File\Read Class Information From File\bin\Debug\Read Class Information From File.exe
+F:\Advanced C#\Read Class Information From File\Read Class Information From File\bin\Debug\Read Class Information From File.pdb
+F:\Advanced C#\Read Class Information From File\Read Class Information From File\bin\Debug\PersonClassLibrary.dll
+F:\Advanced C#\Read Class Information From File\Read Class Information From File\bin\Debug\PersonClassLibrary.pdb
+F:\Advanced C#\Read Class Information From File\Read Class Information From File\obj\Debug\Read Class Information From File.csprojAssemblyReference.cache
+F:\Advanced C#\Read Class Information From File\Read Class Information From File\obj\Debug\Read Class Information From File.csproj.CoreCompileInputs.cache
+F:\Advanced C#\Read Class Information From File\Read Class Information From File\obj\Debug\Read Class Information From File.csproj.CopyComplete
+F:\Advanced C#\Read Class Information From File\Read Class Information From File\obj\Debug\Read Class Information From File.exe
+F:\Advanced C#\Read Class Information From File\Read Class Information From File\obj\Debug\Read Class Information From File.pdb
