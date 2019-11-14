@@ -1,0 +1,5 @@
+F:\Advanced C#\ShiftSupervisor Class\EmployeeClassLibrary\bin\Debug\EmployeeClassLibrary.dll
+F:\Advanced C#\ShiftSupervisor Class\EmployeeClassLibrary\bin\Debug\EmployeeClassLibrary.pdb
+F:\Advanced C#\ShiftSupervisor Class\EmployeeClassLibrary\obj\Debug\EmployeeClassLibrary.csproj.CoreCompileInputs.cache
+F:\Advanced C#\ShiftSupervisor Class\EmployeeClassLibrary\obj\Debug\EmployeeClassLibrary.dll
+F:\Advanced C#\ShiftSupervisor Class\EmployeeClassLibrary\obj\Debug\EmployeeClassLibrary.pdb

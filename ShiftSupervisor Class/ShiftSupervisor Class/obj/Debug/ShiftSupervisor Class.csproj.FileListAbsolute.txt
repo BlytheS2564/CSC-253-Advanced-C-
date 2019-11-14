@@ -1,0 +1,10 @@
+F:\Advanced C#\ShiftSupervisor Class\ShiftSupervisor Class\bin\Debug\ShiftSupervisor Class.exe.config
+F:\Advanced C#\ShiftSupervisor Class\ShiftSupervisor Class\bin\Debug\ShiftSupervisor Class.exe
+F:\Advanced C#\ShiftSupervisor Class\ShiftSupervisor Class\bin\Debug\ShiftSupervisor Class.pdb
+F:\Advanced C#\ShiftSupervisor Class\ShiftSupervisor Class\bin\Debug\EmployeeClassLibrary.dll
+F:\Advanced C#\ShiftSupervisor Class\ShiftSupervisor Class\bin\Debug\EmployeeClassLibrary.pdb
+F:\Advanced C#\ShiftSupervisor Class\ShiftSupervisor Class\obj\Debug\ShiftSupervisor Class.csprojAssemblyReference.cache
+F:\Advanced C#\ShiftSupervisor Class\ShiftSupervisor Class\obj\Debug\ShiftSupervisor Class.csproj.CoreCompileInputs.cache
+F:\Advanced C#\ShiftSupervisor Class\ShiftSupervisor Class\obj\Debug\ShiftSupervisor Class.csproj.CopyComplete
+F:\Advanced C#\ShiftSupervisor Class\ShiftSupervisor Class\obj\Debug\ShiftSupervisor Class.exe
+F:\Advanced C#\ShiftSupervisor Class\ShiftSupervisor Class\obj\Debug\ShiftSupervisor Class.pdb

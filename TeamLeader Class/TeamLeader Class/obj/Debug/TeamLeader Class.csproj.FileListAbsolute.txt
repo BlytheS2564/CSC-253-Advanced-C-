@@ -1,0 +1,10 @@
+F:\Advanced C#\TeamLeader Class\TeamLeader Class\bin\Debug\TeamLeader Class.exe.config
+F:\Advanced C#\TeamLeader Class\TeamLeader Class\bin\Debug\TeamLeader Class.exe
+F:\Advanced C#\TeamLeader Class\TeamLeader Class\bin\Debug\TeamLeader Class.pdb
+F:\Advanced C#\TeamLeader Class\TeamLeader Class\bin\Debug\EmployeeClassLibrary.dll
+F:\Advanced C#\TeamLeader Class\TeamLeader Class\bin\Debug\EmployeeClassLibrary.pdb
+F:\Advanced C#\TeamLeader Class\TeamLeader Class\obj\Debug\TeamLeader Class.csprojAssemblyReference.cache
+F:\Advanced C#\TeamLeader Class\TeamLeader Class\obj\Debug\TeamLeader Class.csproj.CoreCompileInputs.cache
+F:\Advanced C#\TeamLeader Class\TeamLeader Class\obj\Debug\TeamLeader Class.csproj.CopyComplete
+F:\Advanced C#\TeamLeader Class\TeamLeader Class\obj\Debug\TeamLeader Class.exe
+F:\Advanced C#\TeamLeader Class\TeamLeader Class\obj\Debug\TeamLeader Class.pdb

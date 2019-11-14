@@ -1,0 +1,6 @@
+F:\Advanced C#\TeamLeader Class\EmployeeClassLibrary\bin\Debug\EmployeeClassLibrary.dll
+F:\Advanced C#\TeamLeader Class\EmployeeClassLibrary\bin\Debug\EmployeeClassLibrary.pdb
+F:\Advanced C#\TeamLeader Class\EmployeeClassLibrary\obj\Debug\EmployeeClassLibrary.csprojAssemblyReference.cache
+F:\Advanced C#\TeamLeader Class\EmployeeClassLibrary\obj\Debug\EmployeeClassLibrary.csproj.CoreCompileInputs.cache
+F:\Advanced C#\TeamLeader Class\EmployeeClassLibrary\obj\Debug\EmployeeClassLibrary.dll
+F:\Advanced C#\TeamLeader Class\EmployeeClassLibrary\obj\Debug\EmployeeClassLibrary.pdb

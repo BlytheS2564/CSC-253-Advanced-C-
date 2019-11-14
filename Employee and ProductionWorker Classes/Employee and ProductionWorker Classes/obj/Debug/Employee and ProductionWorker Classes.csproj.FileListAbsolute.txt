@@ -1,0 +1,19 @@
+F:\Advanced C#\Employee and ProductionWorker Classes\Employee and ProductionWorker Classes\bin\Debug\Employee and ProductionWorker Classes.exe.config
+F:\Advanced C#\Employee and ProductionWorker Classes\Employee and ProductionWorker Classes\bin\Debug\Employee and ProductionWorker Classes.exe
+F:\Advanced C#\Employee and ProductionWorker Classes\Employee and ProductionWorker Classes\bin\Debug\Employee and ProductionWorker Classes.pdb
+F:\Advanced C#\Employee and ProductionWorker Classes\Employee and ProductionWorker Classes\bin\Debug\EmployeeClassLibrary.dll
+F:\Advanced C#\Employee and ProductionWorker Classes\Employee and ProductionWorker Classes\bin\Debug\EmployeeClassLibrary.pdb
+F:\Advanced C#\Employee and ProductionWorker Classes\Employee and ProductionWorker Classes\obj\Debug\Employee and ProductionWorker Classes.csprojAssemblyReference.cache
+F:\Advanced C#\Employee and ProductionWorker Classes\Employee and ProductionWorker Classes\obj\Debug\Employee and ProductionWorker Classes.csproj.CoreCompileInputs.cache
+F:\Advanced C#\Employee and ProductionWorker Classes\Employee and ProductionWorker Classes\obj\Debug\Employee and ProductionWorker Classes.csproj.CopyComplete
+F:\Advanced C#\Employee and ProductionWorker Classes\Employee and ProductionWorker Classes\obj\Debug\Employee and ProductionWorker Classes.exe
+F:\Advanced C#\Employee and ProductionWorker Classes\Employee and ProductionWorker Classes\obj\Debug\Employee and ProductionWorker Classes.pdb
+E:\Advanced C#\Employee and ProductionWorker Classes\Employee and ProductionWorker Classes\bin\Debug\Employee and ProductionWorker Classes.exe.config
+E:\Advanced C#\Employee and ProductionWorker Classes\Employee and ProductionWorker Classes\bin\Debug\Employee and ProductionWorker Classes.exe
+E:\Advanced C#\Employee and ProductionWorker Classes\Employee and ProductionWorker Classes\bin\Debug\Employee and ProductionWorker Classes.pdb
+E:\Advanced C#\Employee and ProductionWorker Classes\Employee and ProductionWorker Classes\bin\Debug\EmployeeClassLibrary.dll
+E:\Advanced C#\Employee and ProductionWorker Classes\Employee and ProductionWorker Classes\bin\Debug\EmployeeClassLibrary.pdb
+E:\Advanced C#\Employee and ProductionWorker Classes\Employee and ProductionWorker Classes\obj\Debug\Employee and ProductionWorker Classes.csprojAssemblyReference.cache
+E:\Advanced C#\Employee and ProductionWorker Classes\Employee and ProductionWorker Classes\obj\Debug\Employee and ProductionWorker Classes.csproj.CopyComplete
+E:\Advanced C#\Employee and ProductionWorker Classes\Employee and ProductionWorker Classes\obj\Debug\Employee and ProductionWorker Classes.exe
+E:\Advanced C#\Employee and ProductionWorker Classes\Employee and ProductionWorker Classes\obj\Debug\Employee and ProductionWorker Classes.pdb
