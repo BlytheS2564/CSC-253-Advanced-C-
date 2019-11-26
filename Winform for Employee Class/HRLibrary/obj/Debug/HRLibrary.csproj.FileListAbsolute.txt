@@ -1,0 +1,5 @@
+E:\Advanced C#\Winform for Employee Class\HRLibrary\bin\Debug\HRLibrary.dll
+E:\Advanced C#\Winform for Employee Class\HRLibrary\bin\Debug\HRLibrary.pdb
+E:\Advanced C#\Winform for Employee Class\HRLibrary\obj\Debug\HRLibrary.dll
+E:\Advanced C#\Winform for Employee Class\HRLibrary\obj\Debug\HRLibrary.pdb
+E:\Advanced C#\Winform for Employee Class\HRLibrary\obj\Debug\HRLibrary.csprojAssemblyReference.cache

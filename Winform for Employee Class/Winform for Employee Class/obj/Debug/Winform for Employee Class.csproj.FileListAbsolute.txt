@@ -1,0 +1,25 @@
+E:\Advanced C#\Winform for Employee Class\Winform for Employee Class\bin\Debug\Winform for Employee Class.exe.config
+E:\Advanced C#\Winform for Employee Class\Winform for Employee Class\bin\Debug\Winform for Employee Class.exe
+E:\Advanced C#\Winform for Employee Class\Winform for Employee Class\bin\Debug\Winform for Employee Class.pdb
+E:\Advanced C#\Winform for Employee Class\Winform for Employee Class\obj\Debug\Winform for Employee Class.csprojAssemblyReference.cache
+E:\Advanced C#\Winform for Employee Class\Winform for Employee Class\obj\Debug\Winform_for_Employee_Class.Form1.resources
+E:\Advanced C#\Winform for Employee Class\Winform for Employee Class\obj\Debug\Winform_for_Employee_Class.Properties.Resources.resources
+E:\Advanced C#\Winform for Employee Class\Winform for Employee Class\obj\Debug\Winform for Employee Class.csproj.GenerateResource.cache
+E:\Advanced C#\Winform for Employee Class\Winform for Employee Class\obj\Debug\Winform for Employee Class.exe
+E:\Advanced C#\Winform for Employee Class\Winform for Employee Class\obj\Debug\Winform for Employee Class.pdb
+E:\Advanced C#\Winform for Employee Class\Winform for Employee Class\bin\Debug\HRLibrary.dll
+E:\Advanced C#\Winform for Employee Class\Winform for Employee Class\bin\Debug\HRLibrary.pdb
+E:\Advanced C#\Winform for Employee Class\Winform for Employee Class\obj\Debug\Winform for Employee Class.csproj.CopyComplete
+F:\Advanced C#\Winform for Employee Class\Winform for Employee Class\bin\Debug\Winform for Employee Class.exe.config
+F:\Advanced C#\Winform for Employee Class\Winform for Employee Class\bin\Debug\Winform for Employee Class.exe
+F:\Advanced C#\Winform for Employee Class\Winform for Employee Class\bin\Debug\Winform for Employee Class.pdb
+F:\Advanced C#\Winform for Employee Class\Winform for Employee Class\bin\Debug\HRLibrary.dll
+F:\Advanced C#\Winform for Employee Class\Winform for Employee Class\bin\Debug\HRLibrary.pdb
+F:\Advanced C#\Winform for Employee Class\Winform for Employee Class\obj\Debug\Winform for Employee Class.csprojAssemblyReference.cache
+F:\Advanced C#\Winform for Employee Class\Winform for Employee Class\obj\Debug\Winform_for_Employee_Class.Form1.resources
+F:\Advanced C#\Winform for Employee Class\Winform for Employee Class\obj\Debug\Winform_for_Employee_Class.Properties.Resources.resources
+F:\Advanced C#\Winform for Employee Class\Winform for Employee Class\obj\Debug\Winform for Employee Class.csproj.GenerateResource.cache
+F:\Advanced C#\Winform for Employee Class\Winform for Employee Class\obj\Debug\Winform for Employee Class.csproj.CoreCompileInputs.cache
+F:\Advanced C#\Winform for Employee Class\Winform for Employee Class\obj\Debug\Winform for Employee Class.csproj.CopyComplete
+F:\Advanced C#\Winform for Employee Class\Winform for Employee Class\obj\Debug\Winform for Employee Class.exe
+F:\Advanced C#\Winform for Employee Class\Winform for Employee Class\obj\Debug\Winform for Employee Class.pdb
