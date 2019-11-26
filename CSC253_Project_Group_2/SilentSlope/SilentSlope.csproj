@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F76B8024-6DF2-44FB-AC4B-FE7167242F87}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SilentSlope</RootNamespace>
+    <AssemblyName>SilentSlope</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\GameEvents.cs" />
+    <Compile Include="ObjectClassesInterfaces\IItem.cs" />
+    <Compile Include="ObjectClassesInterfaces\ILiving.cs" />
+    <Compile Include="ObjectClassesInterfaces\ILoot.cs" />
+    <Compile Include="ObjectClassesInterfaces\IMob.cs" />
+    <Compile Include="ObjectClassesInterfaces\IPlayer.cs" />
+    <Compile Include="ObjectClassesInterfaces\IRoom.cs" />
+    <Compile Include="ObjectClassesInterfaces\IWeapon.cs" />
+    <Compile Include="ObjectClasses\Living.cs" />
+    <Compile Include="ObjectClasses\Loot.cs" />
+    <Compile Include="ObjectCreation\CreateNewChar.cs" />
+    <Compile Include="Core\Game.cs" />
+    <Compile Include="Core\GameUtilities.cs" />
+    <Compile Include="InputOutput\InputSplit.cs" />
+    <Compile Include="ObjectClasses\Item.cs" />
+    <Compile Include="Core\Load.cs" />
+    <Compile Include="ObjectCreation\CreateRandomMob.cs" />
+    <Compile Include="UserCommands\Combat.cs" />
+    <Compile Include="UserCommands\Look.cs" />
+    <Compile Include="ObjectClasses\Mob.cs" />
+    <Compile Include="UserCommands\Move.cs" />
+    <Compile Include="InputOutput\PasswordCheck.cs" />
+    <Compile Include="ObjectClasses\Player.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ObjectClasses\Room.cs" />
+    <Compile Include="Core\Save.cs" />
+    <Compile Include="ObjectClasses\Weapon.cs" />
+    <Compile Include="InputOutput\WordCheck.cs" />
+    <Compile Include="UserCommands\RandomGenerator.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,10 @@
+C:\Users\Mike\source\repos\CSC253_Project_Group_2\CSC253_Project_Group_2\bin\Debug\CSC253_Project_Group_2.exe.config
+C:\Users\Mike\source\repos\CSC253_Project_Group_2\CSC253_Project_Group_2\bin\Debug\CSC253_Project_Group_2.exe
+C:\Users\Mike\source\repos\CSC253_Project_Group_2\CSC253_Project_Group_2\bin\Debug\CSC253_Project_Group_2.pdb
+C:\Users\Mike\source\repos\CSC253_Project_Group_2\CSC253_Project_Group_2\bin\Debug\SilentSlope.dll
+C:\Users\Mike\source\repos\CSC253_Project_Group_2\CSC253_Project_Group_2\bin\Debug\SilentSlope.pdb
+C:\Users\Mike\source\repos\CSC253_Project_Group_2\CSC253_Project_Group_2\obj\Debug\CSC253_Project_Group_2.csprojAssemblyReference.cache
+C:\Users\Mike\source\repos\CSC253_Project_Group_2\CSC253_Project_Group_2\obj\Debug\CSC253_Project_Group_2.csproj.CoreCompileInputs.cache
+C:\Users\Mike\source\repos\CSC253_Project_Group_2\CSC253_Project_Group_2\obj\Debug\CSC253_Project_Group_2.csproj.CopyComplete
+C:\Users\Mike\source\repos\CSC253_Project_Group_2\CSC253_Project_Group_2\obj\Debug\CSC253_Project_Group_2.exe
+C:\Users\Mike\source\repos\CSC253_Project_Group_2\CSC253_Project_Group_2\obj\Debug\CSC253_Project_Group_2.pdb

@@ -1,0 +1,16 @@
+1
+Knife
+A sharp and slightly rusty weapon
+30
+2
+Hammer
+A blunt weapon
+25
+3
+Wooden plank
+A wooden plank with a nail on one end
+20
+4
+Rusty spoon
+A rusty spoon
+10

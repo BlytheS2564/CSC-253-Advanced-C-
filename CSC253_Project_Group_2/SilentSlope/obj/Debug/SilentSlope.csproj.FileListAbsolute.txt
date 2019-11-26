@@ -1,0 +1,6 @@
+C:\Users\Mike\source\repos\CSC253_Project_Group_2\SilentSlope\bin\Debug\SilentSlope.dll
+C:\Users\Mike\source\repos\CSC253_Project_Group_2\SilentSlope\bin\Debug\SilentSlope.pdb
+C:\Users\Mike\source\repos\CSC253_Project_Group_2\SilentSlope\obj\Debug\SilentSlope.csprojAssemblyReference.cache
+C:\Users\Mike\source\repos\CSC253_Project_Group_2\SilentSlope\obj\Debug\SilentSlope.csproj.CoreCompileInputs.cache
+C:\Users\Mike\source\repos\CSC253_Project_Group_2\SilentSlope\obj\Debug\SilentSlope.dll
+C:\Users\Mike\source\repos\CSC253_Project_Group_2\SilentSlope\obj\Debug\SilentSlope.pdb

@@ -1,0 +1,15 @@
+8
+Bedroom
+A single bed and mirror. Too dark to see.
+5
+Kitchen
+An oven and a fridge. Something seems to be rotting..
+4
+Attic
+A dingy atmosphere, cobwebs are everywhere
+6
+Basement
+Dark and gloomy. You think you hear faint whispering
+2
+Backyard
+An eerie creaking noise can be heard from the nearby trees

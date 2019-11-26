@@ -1,0 +1,32 @@
+1
+Bandaid
+An adhesive bandage
+50
+2
+Rubber ball
+A bouncy rubbery ball
+0
+3
+Pencil
+May be used to write somthing
+0
+4
+Tape
+Can be used to bind things together
+0
+5
+Picture
+An old photo of a family
+0
+6
+Child's drawing
+A picture of a house on fire.. the family is still inside
+0
+7
+Beef jerky
+Peppered and delicious
+50
+8
+Energy drink
+Tastes like lightning in a can
+100
