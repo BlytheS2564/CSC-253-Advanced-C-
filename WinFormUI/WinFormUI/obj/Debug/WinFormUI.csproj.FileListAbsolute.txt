@@ -1,0 +1,11 @@
+E:\Advanced C#\WinFormUI\WinFormUI\bin\Debug\PhoneList.mdf
+E:\Advanced C#\WinFormUI\WinFormUI\bin\Debug\PhoneList_log.ldf
+E:\Advanced C#\WinFormUI\WinFormUI\bin\Debug\WinFormUI.exe.config
+E:\Advanced C#\WinFormUI\WinFormUI\bin\Debug\WinFormUI.exe
+E:\Advanced C#\WinFormUI\WinFormUI\bin\Debug\WinFormUI.pdb
+E:\Advanced C#\WinFormUI\WinFormUI\obj\Debug\WinFormUI.csprojAssemblyReference.cache
+E:\Advanced C#\WinFormUI\WinFormUI\obj\Debug\WinFormUI.Form1.resources
+E:\Advanced C#\WinFormUI\WinFormUI\obj\Debug\WinFormUI.Properties.Resources.resources
+E:\Advanced C#\WinFormUI\WinFormUI\obj\Debug\WinFormUI.csproj.GenerateResource.cache
+E:\Advanced C#\WinFormUI\WinFormUI\obj\Debug\WinFormUI.exe
+E:\Advanced C#\WinFormUI\WinFormUI\obj\Debug\WinFormUI.pdb
