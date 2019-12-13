@@ -9,28 +9,40 @@ namespace SilentSlope
 {
     public class CreateRandomMob
     {
-        public static List<IRoom> RandomCreate(List<List<IRoom>> inRoomList)
+        public static List<List<IRoom>> RandomCreate(List<List<IRoom>> inRoomList)
         {
             int count = 0;
+            int count1 = 0;
             List<IRoom> newRoomList = new List<IRoom>();
             List<IRoom> weaponList = inRoomList[0];
             List<IRoom> lootList = inRoomList[1];
             List<IRoom> mobList = inRoomList[2];
             List<IRoom> roomList = inRoomList[3];
+            List<IRoom> playerList = inRoomList[4];
+            List<IRoom> RoomContents = new List<IRoom>();
             Random rand = new Random();
             Console.WriteLine("----Spawning loot and mobs----");
             Console.WriteLine(" ");
             foreach (Room room in roomList)
             {
+                if (count1 == 3)
+                {
+                    IRoom specialLoot = lootList[4];
+                    if (specialLoot is Loot sl)
+                    {
+                        room.RoomContents.Add(sl);
+                    }
+                }
                 Console.WriteLine(room.RoomName);
                 Console.WriteLine("-------------");
                 Room populatedRoom = RandomSpawn(room, inRoomList, rand);
                 newRoomList.Add(populatedRoom);
                 Console.WriteLine(" ");
                 Console.WriteLine(" ");
+                count1++;
             }
-            
-            return newRoomList;
+            inRoomList = Game.AddtoRoomList(weaponList, lootList, mobList, inRoomList, newRoomList, playerList);
+            return inRoomList;
         }
         public static Room RandomSpawn(Room room, List<List<IRoom>> inRoomList, Random rand)
         {
@@ -94,14 +106,15 @@ namespace SilentSlope
                 if (ranNumber == count)
                 {
                     Console.WriteLine(loot.Name);
+                    Loot newLoot = loot.DeepCopy(loot.Name, loot.Description, loot.Heal);
                     if (room.RoomContents is null)
                     {
-                        RoomContents.Add(loot);
+                        RoomContents.Add(newLoot);
                     }
                     else
                     {
                         RoomContents = ReplaceContents(room);
-                        RoomContents.Add(loot);
+                        RoomContents.Add(newLoot);
                     }
                     room.RoomContents = RoomContents;
                     return room;

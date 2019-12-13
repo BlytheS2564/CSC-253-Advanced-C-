@@ -23,15 +23,23 @@ namespace SilentSlope
             Console.WriteLine("This is a survival horror text based game.");
             Console.WriteLine("Explore the rooms by using the following inputs");
             Console.WriteLine(" ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("Movement controls");
+            Console.ResetColor();
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Type 'north' or 'n' to move north");
             Console.WriteLine("Type 'south' or 's' to move south");
             Console.WriteLine("Type 'east' or 'e' to move east");
             Console.WriteLine("Type 'west' or 'w' to move west");
             Console.WriteLine(" ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("Action controls");
+            Console.ResetColor();
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Type 'look player' or 'look stats' for player info");
             Console.WriteLine("Type 'look room' for room info");
+            Console.WriteLine("Type 'take (item name)' to add an item to your inventory");
+            Console.WriteLine("Type 'use (item name)'  to equip or use an item");
             Console.WriteLine("Type 'look mobs', 'look weapons', or 'look items' for full obj lists");
             Console.WriteLine("Type 'attack' to attack current mob in room");
             Console.WriteLine(" ");
@@ -237,6 +245,9 @@ namespace SilentSlope
                     case "4":
                     case "exit":
                         exit = true;
+                        break;
+                    case "picture":
+                        Load.ViewPicture();
                         break;
                 }
                 if (exit == true) { break; };

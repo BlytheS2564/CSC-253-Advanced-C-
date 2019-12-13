@@ -13,7 +13,7 @@ namespace SilentSlope
         public int Crit { get; set; }
         public string Zodiac { get; set; }
         public string Relic { get; set; }
-        public List<IItem> Inventory { get; set; }
+        public List<IRoom> Inventory { get; set; }
 
         public override void IsAlive(int damage, int health)
         {

@@ -5,10 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 /**
-* 10/25/19
+* 12/12/19
 * CSC 253
 * Group 2 - Michael Blythe, Scott Blythe
-* CSC 253 Project Sprint 3 Group 2 - Silent Slope
+* CSC 253 Project Final Sprint Group 2 - Silent Slope
 */
 
 namespace CSC253_Project_Group_2

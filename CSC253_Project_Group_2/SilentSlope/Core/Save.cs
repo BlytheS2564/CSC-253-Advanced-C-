@@ -9,22 +9,59 @@ namespace SilentSlope
 {
     public class Save
     {
-        public static void SavePlayer(Player player)
+        public static void SavePlayer(List<List<IRoom>> inRoomList)
         {
+            List<IRoom> playerList = inRoomList[4];
             try
             {
                 // saves player object data to Player.txt file
                 StreamWriter outputFile;
                 outputFile = File.CreateText("Player.txt");
+                foreach (Player player in playerList)
+                {
+                    outputFile.WriteLine(player.Name);
+                    outputFile.WriteLine(player.Password);
+                    outputFile.WriteLine(player.Health);
+                    outputFile.WriteLine(player.Attack);
+                    outputFile.WriteLine(player.Armor);
+                    outputFile.WriteLine(8);
+                    outputFile.WriteLine(player.Crit);
+                    outputFile.WriteLine(player.Zodiac);
+                    outputFile.WriteLine(player.Relic);
+                }
 
-                outputFile.WriteLine(player.Name);
-                outputFile.WriteLine(player.Password);
-                outputFile.WriteLine(player.Health);
-                outputFile.WriteLine(player.Armor);
-                outputFile.WriteLine(player.Crit);
-                outputFile.WriteLine(player.Zodiac);
-                outputFile.WriteLine(player.Relic);
-                outputFile.WriteLine(player.CurrentRoom);
+                outputFile.Close();
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            SavePlayerInventory(playerList);
+        }
+        public static void SavePlayerInventory(List<IRoom> playerList)
+        {
+            try
+            {
+                // saves player object data to Player.txt file
+                StreamWriter outputFile;
+                outputFile = File.CreateText("PlayerInventory2.txt");
+                foreach (Player player in playerList)
+                {
+                    outputFile.WriteLine(player.Name);
+                    foreach (IRoom item in player.Inventory)
+                    {
+                        if(item is Loot loot)
+                        {
+                            outputFile.WriteLine(loot.Name);
+                        }
+                        if(item is Weapon weapon)
+                        {
+                            outputFile.WriteLine(weapon.Name);
+                        }
+                    }
+                    outputFile.WriteLine("end");
+                }
 
                 outputFile.Close();
 
@@ -34,8 +71,9 @@ namespace SilentSlope
                 Console.WriteLine(ex.Message);
             }
         }
-        public static void SaveWorld(List<IRoom> roomList)
+        public static void SaveWorld(List<List<IRoom>> inRoomList)
         {
+            List<IRoom> roomList = inRoomList[3];
             try
             {
                 // saves room object data to Rooms2.txt file
@@ -56,7 +94,6 @@ namespace SilentSlope
 
                 Console.ForegroundColor = ConsoleColor.DarkYellow;
                 Console.WriteLine("Game Saved");
-                Console.WriteLine(" ");
                 Console.WriteLine(" ");
                 Console.ResetColor();
             }

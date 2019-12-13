@@ -22,9 +22,7 @@ namespace SilentSlope
                 player = p;
             }
             Mob mob = new Mob();
-            string Name = "";
-            int Health = 0;
-            int Attack = 0;
+
             List<string> defaultList = new List<string>();
 
             foreach (var item in roomObject.RoomContents)
@@ -44,117 +42,151 @@ namespace SilentSlope
             Console.WriteLine(" ");
             Console.WriteLine("What would you like to do?");
             Console.WriteLine("1. Attack");
-            Console.WriteLine("2. Heal");
-            Console.WriteLine("3. Run");
-            while (!int.TryParse(Console.ReadLine(), out input))
+            Console.WriteLine("2. Run");
+            do
             {
-                Console.WriteLine("Please choose 1, 2, or 3");
-                Console.WriteLine(" ");
-                Console.WriteLine("What would you like to do?");
-                Console.WriteLine("1. Attack");
-                Console.WriteLine("2. Heal");
-                Console.WriteLine("3. Run");
-            }
-            if (input == 1)
-            {
-                Random rand = RandomGenerator.GenerateRandom();
-                Console.WriteLine("");
-                Console.WriteLine($"You stare eachother down and after a brief pause..");
-                Console.WriteLine("");
-                Console.WriteLine($"You take a swing at the {mob.Name}");
-                Console.ReadLine();
-                Random rand2 = RandomGenerator.GenerateRandom();
-
-                do
+                while (!int.TryParse(Console.ReadLine(), out input))
                 {
-                    for (int i = 0; mob.Health > 0 || player.Health > 0; i++)
+                    Console.WriteLine("Please choose 1 or 2");
+                    Console.WriteLine(" ");
+                    Console.WriteLine("What would you like to do?");
+                    Console.WriteLine("1. Attack");
+                    Console.WriteLine("2. Run");
+                }
+
+                if (input == 1)
+                {
+                    Random rand = RandomGenerator.GenerateRandom();
+                    Console.WriteLine("");
+                    Console.WriteLine($"You stare eachother down and after a brief pause..");
+                    Console.WriteLine("");
+                    Console.WriteLine($"You take a swing at the {mob.Name}");
+                    Console.ReadLine();
+                    Random rand2 = RandomGenerator.GenerateRandom();
+
+                    do
                     {
-
-                        int attackChance = RandomGenerator.AttackChance(rand);
-                        int attackChance2 = RandomGenerator.AttackChance(rand);
-
-                        if (attackChance == 1)
+                        for (int i = 0; mob.Health > 0 || player.Health > 0; i++)
                         {
-                            if (player.Health <= 0)
+
+                            int attackChance = RandomGenerator.AttackChance(rand);
+                            int attackChance2 = RandomGenerator.AttackChance(rand);
+
+                            if (attackChance == 1)
                             {
+                                if (player.Health <= 0)
+                                {
+                                    Console.WriteLine("");
+                                    Console.ForegroundColor = ConsoleColor.Red;
+                                    Console.WriteLine($"The player has died.");
+                                    Console.ResetColor();
+                                    Console.ForegroundColor = ConsoleColor.White;
+                                    Console.ReadLine();
+                                    { isDead = true; }
+                                    break;
+                                }
                                 Console.WriteLine("");
-                                Console.WriteLine($"The player has died.");
-                                Console.ReadLine();
-                                { isDead = true; }
-                                break;
+                                Console.WriteLine($"You missed.");
+                                if (attackChance2 == 1)
+                                {
+                                    Console.WriteLine("");
+                                    Console.WriteLine($"The {mob.Name} swings back.");
+                                    Console.WriteLine($"The {mob.Name} missed.");
+                                    Console.WriteLine($"Player Health: {player.Health}");
+                                    Console.WriteLine($"{mob.Name} Health: {mob.Health}");
+                                }
+                                else if (attackChance2 == 2)
+                                {
+
+                                    Console.WriteLine("");
+                                    Console.WriteLine($"The {mob.Name} swings back.");
+
+                                    if (player.Armor > 0)
+                                    {
+                                        int attack = mob.Attack;
+                                        attack -= player.Armor;
+                                        player.Health -= attack;
+                                        Console.WriteLine($"Your armor absorbed {player.Armor} damage.");
+                                        Console.WriteLine($"The {mob.Name} hit you for {attack} points of damage.");
+                                    }
+                                    else
+                                    {
+                                        player.Health -= mob.Attack;
+                                        Console.WriteLine($"The {mob.Name} hit you for {mob.Attack} points of damage.");
+                                    }
+                                    Console.WriteLine($"Player Health: {player.Health}");
+                                    Console.WriteLine($"{mob.Name} Health: {mob.Health}");
+                                }
                             }
-                            Console.WriteLine("");
-                            Console.WriteLine($"You missed.");
-                            if (attackChance2 == 1)
+                            else if (attackChance == 2)
                             {
+                                mob.Health -= player.Attack;
                                 Console.WriteLine("");
-                                Console.WriteLine($"The {mob.Name} swings back.");
-                                Console.WriteLine($"The {mob.Name} missed.");
+                                Console.WriteLine($"You hit the {mob.Name} for {player.Attack} points of damage.");
                                 Console.WriteLine($"Player Health: {player.Health}");
                                 Console.WriteLine($"{mob.Name} Health: {mob.Health}");
-                            }
-                            else if (attackChance2 == 2)
-                            {
-                                player.Health -= mob.Attack;
-                                Console.WriteLine("");
-                                Console.WriteLine($"The {mob.Name} swings back.");
-                                Console.WriteLine($"The {mob.Name} hit you for {mob.Attack} points of damage.");
-                                Console.WriteLine($"Player Health: {player.Health}");
-                                Console.WriteLine($"{mob.Name} Health: {mob.Health}");
+                                if (mob.Health <= 0)
+                                {
+                                    Console.WriteLine("");
+                                    Console.ForegroundColor = ConsoleColor.Yellow;
+                                    Console.WriteLine($"The {mob.Name} has died.");
+                                    Console.ResetColor();
+                                    Console.ForegroundColor = ConsoleColor.White;
+                                    Console.ReadLine();
+                                    roomObject.RoomContents.Remove(mob);
+                                    { isDead = true; }
+                                    break;
+                                }
+                                if (attackChance2 == 1)
+                                {
+                                    Console.WriteLine("");
+                                    Console.WriteLine($"The {mob.Name} swings back.");
+                                    Console.WriteLine($"The {mob.Name} missed.");
+                                    Console.WriteLine($"Player Health: {player.Health}");
+                                    Console.WriteLine($"{mob.Name} Health: {mob.Health}");
+                                }
+                                else if (attackChance2 == 2)
+                                {
+                                    Console.WriteLine("");
+                                    Console.WriteLine($"The {mob.Name} swings back.");
+
+                                    if (player.Armor > 0)
+                                    {
+                                        int attack = mob.Attack;
+                                        attack -= player.Armor;
+                                        player.Health -= attack;
+                                        Console.WriteLine($"Your armor absorbed {player.Armor} damage.");
+                                        Console.WriteLine($"The {mob.Name} hit you for {attack} points of damage.");
+                                    }
+                                    else
+                                    {
+                                        player.Health -= mob.Attack;
+                                        Console.WriteLine($"The {mob.Name} hit you for {mob.Attack} points of damage.");
+                                    }
+                                    Console.WriteLine($"Player Health: {player.Health}");
+                                    Console.WriteLine($"{mob.Name} Health: {mob.Health}");
+                                }
                             }
                         }
-                        else if (attackChance == 2)
-                        {
-                            mob.Health -= player.Attack;
-                            Console.WriteLine("");
-                            Console.WriteLine($"You hit the {mob.Name} for {player.Attack} points of damage.");
-                            Console.WriteLine($"Player Health: {player.Health}");
-                            Console.WriteLine($"{mob.Name} Health: {mob.Health}");
-                            if (mob.Health <= 0)
-                            {
-                                Console.WriteLine("");
-                                Console.WriteLine($"The {mob.Name} has died.");
-                                Console.ReadLine();
-                                roomObject.RoomContents.Remove(mob);
-                                { isDead = true; }
-                                break;
-                            }
-                            if (attackChance2 == 1)
-                            {
-                                Console.WriteLine("");
-                                Console.WriteLine($"The {mob.Name} swings back.");
-                                Console.WriteLine($"The {mob.Name} missed.");
-                                Console.WriteLine($"Player Health: {player.Health}");
-                                Console.WriteLine($"{mob.Name} Health: {mob.Health}");
-                            }
-                            else if (attackChance2 == 2)
-                            {
-                                player.Health -= mob.Attack;
-                                Console.WriteLine("");
-                                Console.WriteLine($"The {mob.Name} swings back.");
-                                Console.WriteLine($"The {mob.Name} hit you for {mob.Attack} points of damage.");
-                                Console.WriteLine($"Player Health: {player.Health}");
-                                Console.WriteLine($"{mob.Name} Health: {mob.Health}");
-                            }
-                        }
-                    }
-                } while (isDead == false);
-                return inRoomList;
-            }
-            else if (input == 2)
-            {
-                Console.WriteLine("");
-                Console.WriteLine("You healed");
-                Console.ReadLine();
-                return inRoomList;
-            }
-            else if (input == 3)
-            {
-                Console.WriteLine("");
-                Console.WriteLine("You ran");
-                Console.ReadLine();
-                return inRoomList;
-            }
+                    } while (isDead == false);
+                    return inRoomList;
+                }
+                else if (input == 2)
+                {
+                    Console.WriteLine("");
+                    Console.WriteLine("You ran");
+                    Console.ReadLine();
+                    return inRoomList;
+                }
+                else
+                {
+                    Console.WriteLine("Please choose 1 or 2");
+                    Console.WriteLine(" ");
+                    Console.WriteLine("What would you like to do?");
+                    Console.WriteLine("1. Attack");
+                    Console.WriteLine("2. Run");
+                }
+            } while (input != 1 || input != 2);
             return inRoomList;
         }
     }

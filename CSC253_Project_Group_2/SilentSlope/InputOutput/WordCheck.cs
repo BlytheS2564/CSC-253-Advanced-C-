@@ -57,30 +57,14 @@ namespace SilentSlope
                     inRoomList = Move.Direction(strVerb, row, col, roomName, inRoomList);
                     break;
                 case "attack":
-                    if (roomObject.RoomContents != null)
-                    {
-                        for (int i = 0; i < roomObject.RoomContents.Count; i++)
-                        {
-                            IRoom content = roomObject.RoomContents[i];
-                            if (content is Mob item1)
-                            {
-                                Combat.PlayerCombat(inRoomList, roomObject);
-                                combat = true;
-                                if(combat == true)
-                                {
-                                    break;
-                                }
-                            }
-                        }
-                        if (combat == false)
-                        {
-                            Console.WriteLine(" ");
-                            Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine("Nothing to attack");
-                            Console.ResetColor();
-                            Console.WriteLine(" ");
-                        }
-                    }
+                    inRoomList = Attack(roomObject, inRoomList);
+                    break;
+                case "take":
+                    inRoomList = Take.TakeWhat(strObject, roomObject, inRoomList);
+                    break;
+                case "use":
+                case "equp":
+                    inRoomList = Use.UseWhat(strObject, roomObject, inRoomList);
                     break;
 
                 default:
@@ -94,6 +78,35 @@ namespace SilentSlope
         public static void OtherCommands(string strVerb)
         {
 
+        }
+        public static List<List<IRoom>> Attack(Room roomObject, List<List<IRoom>> inRoomList)
+        {
+            bool combat = false;
+            if (roomObject.RoomContents != null)
+            {
+                for (int i = 0; i < roomObject.RoomContents.Count; i++)
+                {
+                    IRoom content = roomObject.RoomContents[i];
+                    if (content is Mob item1)
+                    {
+                        Combat.PlayerCombat(inRoomList, roomObject);
+                        combat = true;
+                        if (combat == true)
+                        {
+                            break;
+                        }
+                    }
+                }
+                if (combat == false)
+                {
+                    Console.WriteLine(" ");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Nothing to attack");
+                    Console.ResetColor();
+                    Console.WriteLine(" ");
+                }
+            }
+            return inRoomList;
         }
     }
 }

@@ -9,13 +9,20 @@ namespace SilentSlope
 {
     public class Load
     {
-        public static List<IRoom> Player(List<IRoom> playerList)
+        public static List<List<IRoom>> Player(List<List<IRoom>> inRoomList)
         {
             /**
              * Requests the users name and password in order to locate and verify the user via the Player.txt file.
              */
+            List<IRoom> weaponList = inRoomList[0];
+            List<IRoom> lootList = inRoomList[1];
+            List<IRoom> mobList = inRoomList[2];
+            List<IRoom> roomList = inRoomList[3];
+            List<IRoom> playerList = inRoomList[4];
             Player player = new Player();
-            Console.WriteLine(" ");
+            List<IRoom> Inventory = new List<IRoom>();
+            List<IRoom> blankPlayerList = new List<IRoom>();
+
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.Write("Please enter player name: ");
             Console.ResetColor();
@@ -24,7 +31,7 @@ namespace SilentSlope
             Console.Write("Please enter password: ");
             Console.ResetColor();
             string tempPass = Console.ReadLine();
-
+            
             try
             {
                 StreamReader inputFile;
@@ -38,63 +45,123 @@ namespace SilentSlope
                     player.Health = int.Parse(inputFile.ReadLine());
                     player.Attack = int.Parse(inputFile.ReadLine());
                     player.Armor = int.Parse(inputFile.ReadLine());
+                    player.CurrentRoom = int.Parse(inputFile.ReadLine());
                     player.Crit = int.Parse(inputFile.ReadLine());
                     player.Zodiac = inputFile.ReadLine();
                     player.Relic = inputFile.ReadLine();
-                    player.CurrentRoom = int.Parse(inputFile.ReadLine());
+                    player.Inventory = Inventory;
                     playerList.Add(player);
                 }
 
                 inputFile.Close();
 
-                // password authentication
-
-                if (tempName == player.Name && tempPass == player.Password)
-                {
-                    Console.ForegroundColor = ConsoleColor.DarkYellow;
-                    Console.WriteLine("Player found!");
-                    Console.ResetColor();
-                    Console.WriteLine("");
-                    Console.ReadLine();
-                    return playerList;
-                }
-                else
-                {
-                    player = new Player();
-                    player.Name = "";
-                    player.Password = "";
-                    player.Health = 100;
-                    player.Attack = 10;
-                    player.Armor = 0;
-                    player.Crit = 0;
-                    player.Zodiac = "";
-                    player.Relic = "";
-                    player.CurrentRoom = 8;
-                    playerList.Add(player);
-
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Player name / Password did not match.");
-                    Console.ResetColor();
-                    Console.WriteLine("");
-                    Console.ReadLine();
-                    GameUtilities.GameMenu();
-                }
+                // password authenticationthey
 
             }
             catch (Exception ex)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Player not found!");
                 Console.WriteLine(ex.Message);
                 Console.ResetColor();
             }
+            foreach (Player p in playerList)
+            {
+                if (tempName == p.Name)
+                {
+                    if (tempPass == p.Password)
+                    {
+                        Console.ForegroundColor = ConsoleColor.DarkYellow;
+                        Console.WriteLine("Player found!");
+                        Console.ResetColor();
+                        Console.WriteLine("");
+                        Console.ReadLine();
+                        playerList = blankPlayerList;
+                        player = LoadPlayerInventory(p, weaponList, lootList);
+                        playerList.Add(p);
 
-            return playerList;
+                    }
+                    else
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("Player name / Password did not match");
+                        Console.ResetColor();
+                        Console.WriteLine("");
+                        Console.ReadLine();
+                        playerList = blankPlayerList;
+                    }
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("No player found");
+                    Console.ResetColor();
+                    Console.WriteLine("");
+                    Console.ReadLine();
+                    playerList = blankPlayerList;
+                }
+            }
+            inRoomList = Game.AddtoRoomList(weaponList, lootList, mobList, inRoomList, roomList, playerList);
+            return inRoomList;
+        }
+        public static Player LoadPlayerInventory(Player player, List<IRoom> weaponList, List<IRoom> lootList)
+        {
+            string temp = "";
+            string temp2 = "";
+            string temp3 = "";
+            string end = "end";
+            try
+            {
+                StreamReader inputFile;
+                inputFile = File.OpenText("PlayerInventory2.txt");
+                Console.WriteLine("");
+                temp = inputFile.ReadLine();
+                if (temp == player.Name)
+                {
+                    while (temp2 != end)
+                    {
+                        temp2 = inputFile.ReadLine();
+                        if (temp2 == end)
+                        {
+                            
+                        }
+                        else
+                        {
+                            foreach (Weapon weapon in weaponList)
+                            {
+                                if(temp2 == weapon.Name)
+                                {
+                                    player.Inventory.Add(weapon);
+                                }
+                            }
+                            foreach (Loot loot in lootList)
+                            {
+                                if (temp2 == loot.Name)
+                                {
+                                    player.Inventory.Add(loot);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                inputFile.Close();
+
+                // password authenticationthey
+
+            }
+            catch (Exception ex)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine(ex.Message);
+                Console.ResetColor();
+            }
+            return player;
         }
         public static List<IRoom> Rooms(List<IRoom> roomList)
         {
             // loads the room objects from Rooms.txt
             int count = 0;
+            List<IRoom> RoomContents = new List<IRoom>();
 
             try
             {
@@ -107,6 +174,7 @@ namespace SilentSlope
                     room.RoomID = int.Parse(inputFile.ReadLine());
                     room.RoomName = inputFile.ReadLine();
                     room.RoomDescription = inputFile.ReadLine();
+                    room.RoomContents = RoomContents;
                     count++;
                     roomList.Add(room);
                 }
@@ -251,6 +319,31 @@ namespace SilentSlope
 
 
             return lootList;
+        }
+        public static void ViewPicture()
+        {
+            string temp = "";
+
+            try
+            {
+                StreamReader inputFile;
+                inputFile = File.OpenText("monster.txt");
+                Console.WriteLine("");
+                while (!inputFile.EndOfStream)
+                {
+                    temp = inputFile.ReadLine();
+                    Console.WriteLine(temp);
+                }
+
+                inputFile.Close();
+            }
+            catch (Exception ex)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine(ex.Message);
+                Console.ResetColor();
+            }
+            Console.ReadLine();
         }
     }
 }

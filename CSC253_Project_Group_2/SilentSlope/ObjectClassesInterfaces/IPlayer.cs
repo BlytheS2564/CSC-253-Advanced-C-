@@ -12,6 +12,6 @@ namespace SilentSlope
         int Crit { get; set; }
         string Zodiac { get; set; }
         string Relic { get; set; }
-        List<IItem> Inventory { get; set; }
+        List<IRoom> Inventory { get; set; }
     }
 }

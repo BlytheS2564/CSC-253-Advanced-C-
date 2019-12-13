@@ -33,6 +33,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -70,7 +71,14 @@
     <Compile Include="ObjectClasses\Weapon.cs" />
     <Compile Include="InputOutput\WordCheck.cs" />
     <Compile Include="UserCommands\RandomGenerator.cs" />
+    <Compile Include="UserCommands\Take.cs" />
+    <Compile Include="UserCommands\Use.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\SilentSlopeWinForm\SilentSlopeWinForm.csproj">
+      <Project>{eacd6a4b-a38a-4ecb-b0df-35cebe76281e}</Project>
+      <Name>SilentSlopeWinForm</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

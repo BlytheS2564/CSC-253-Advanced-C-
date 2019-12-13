@@ -10,5 +10,13 @@ namespace SilentSlope
     public class Loot : Item, ILoot
     {
         public int Heal { get; set; }
+        public Loot DeepCopy(string Name, string Description, int Heal)
+        {
+            Loot deepCopyLoot = new Loot();
+            deepCopyLoot.Name = Name;
+            deepCopyLoot.Description = Description;
+            deepCopyLoot.Heal = Heal;
+            return deepCopyLoot;
+        }
     }
 }

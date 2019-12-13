@@ -8,7 +8,22 @@ namespace SilentSlope
 {
     public class CreateNewChar
     {
-        public static void CharacterDetails(Player player)
+        enum AstrologyZodiac
+        {
+            Aquarius = 1,
+            Pisces = 2,
+            Aries = 3,
+            Taurus = 1,
+            Gemini = 2,
+            Cancer = 3,
+            Leo = 1,
+            Libra = 2,
+            Virgo = 3,
+            Capricorn = 1,
+            Scorpio = 2,
+            Sagittarius = 3
+        }
+        public static Player CharacterDetails(Player player)
         {
             // asks the user questions to fill out the player class object
 
@@ -21,8 +36,14 @@ namespace SilentSlope
             player.Name = Console.ReadLine();
             Console.WriteLine(" ");
 
+            player.Health = 100;
+            player.Attack = 10;
+            player.Armor = 0;
+            player.Relic = "Null";
+            player.CurrentRoom = 8;
+
             Console.ForegroundColor = ConsoleColor.DarkYellow;
-            player.Zodiac = AstrologyZodiacSign();
+            player = AstrologyZodiacSign(player);
             Console.ResetColor();
             Console.WriteLine(" ");
 
@@ -60,15 +81,12 @@ namespace SilentSlope
                 }
             } while (validate != 0);
 
-            player.Health = 100;
-            player.Armor = 0;
-            player.Relic = "Null";
-            player.CurrentRoom = 8;
             Console.WriteLine(" ");
             Console.WriteLine("Character Created");
             Console.ReadLine();
+            return player;
         }
-        public static string AstrologyZodiacSign()
+        public static Player AstrologyZodiacSign(Player player)
         {
             // takes the month and day to determine astrology sign
             string astro_sign = "";
@@ -195,14 +213,30 @@ namespace SilentSlope
             else if (month == "november")
             {
                 if (day < 22)
-                    astro_sign = "scorpio";
+                    astro_sign = "Scorpio";
                 else
                     astro_sign = "Sagittarius";
             }
-
+            player.Zodiac = astro_sign;
             Console.WriteLine($"You have received the blessing of the {astro_sign}");
+            if ((astro_sign == "Aquarius") || (astro_sign == "Taurus") || (astro_sign == "Leo") || (astro_sign == "Capricorn"))
+            {
+                Console.WriteLine("(Reduced damage taken)");
+                player.Armor = 5;
+            }
+            else if ((astro_sign == "Pisces") || (astro_sign == "Gemini") || (astro_sign == "Libra") || (astro_sign == "Scorpio"))
+            {
+                Console.WriteLine("(Increased attack damage)");
+                player.Attack = 15;
+            }
+            else if ((astro_sign == "Aries") || (astro_sign == "Cancer") || (astro_sign == "Virgo") || (astro_sign == "Sagittarius"))
+            {
+                Console.WriteLine("(Increased max health)");
+                player.Health = 120;
+            }
+            Console.WriteLine("");
             Console.ReadLine();
-            return astro_sign;
+            return player;
         }
 
         public static void PassError(int validate)
